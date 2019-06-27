@@ -2,7 +2,7 @@
 React Demo,一个输入github用户名可以查询出用户头像等信息等应用。  
 
 ## 使用
-在线地址：  
+[在线地址](https://harlan-zhangdongxing.github.io/react-github-finder/dist/index.html)   
 下载后运行
 ```
 npm run start
