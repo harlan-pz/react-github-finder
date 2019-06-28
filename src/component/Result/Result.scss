@@ -6,26 +6,34 @@
     margin: 30px 30px 30px 30px;
     float: left;
   }
-  &-login {
-    display: block;
-    height: 160px;
-    line-height: 160px;
+  .info {
+    margin-top: 30px;
     float: left;
+    li {
+      list-style: none;
+      margin-top: 5px;
+    }
+    .info-title-url {
+      text-decoration: none;
+    }
+    .back {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #04A4FF;
+      color: white;
+      padding: 5px 15px 5px 15px;
+      margin: 20px 0 0 0;
+      font-size: 14px;
+    }
   }
-}
-
-.back {
-  display: inline-block;
-  text-decoration: none;
-  background-color: #04A4FF;
-  color: white;
-  padding: 5px 15px 5px 15px;
-  margin: 20px;
-  font-size: 14px;
 }
 
 .clearfix::after {
   clear: both;
   display: block;
   content: '';
+}
+
+.tips {
+  margin: 10px 15px;
 }
