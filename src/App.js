@@ -1,10 +1,8 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import FinderHeader from './component/FinderHeader/FinderHeader'
-import Home from './component/Home/Home'
-import Result from './component/Result/Result'
-// import connect from 'react-redux'
-// import * as action from './action/action'
+import Home from './component/Home/HomeContainer'
+import Result from './component/Result/ResultContainer'
 import './App.scss'
 
 class App extends React.Component {
